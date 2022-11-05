@@ -3,3 +3,33 @@
       background-color: lightblue;
     }
   }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  #container{
+    display: flex;
+    flex-direction: row;
+  }
+
+ #navbar{
+  align-self: start;
+  position: fixed;
+  margin: 40px auto;
+  border-right: 2px solid black;
+ }
+
+  .nav-link{
+    display: block;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 20px 15px;
+    margin-left: 0;
+  }
+
+  #main-doc{
+    margin-left: 25px;
+    align-self: end;
+  }
